@@ -1,0 +1,10 @@
+
+// customizing boostrap
+// override default colors
+
+$theme-colors: (
+    primary: #00BFFF
+);
+
+// import bootstrap
+@import "../bootstrap/scss/bootstrap";
