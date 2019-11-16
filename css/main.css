@@ -7594,21 +7594,29 @@ body {
   font-family: "Nunito", sans-serif;
   background: #7fdbff; }
 
-.navbar {
+#mainNavbar .navbar-brand {
+  color: orangered; }
+
+#mainNavbar {
   font-size: 1.5rem;
   font-weight: 100; }
-  .navbar .navbar-brand h3 {
+
+#mainNavbar .nav-link {
+  color: white; }
+
+#mainNavbar .nav-link:hover {
+  color: orangered; }
+
+#headingGroup span {
+  color: orangered; }
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem; }
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
     font-weight: 100;
-    font-size: 1.5rem; }
-  .navbar .nav-link {
-    color: white; }
-  .navbar .nav-link:hover {
-    color: red; }
-
-#mainNavbar .navbar-brand {
-  color: red; }
-
-.navbar-toggler .navbar-toggler-icon {
-  color: red; }
+    font-size: 3rem; } }
 
 /*# sourceMappingURL=main.css.map */
